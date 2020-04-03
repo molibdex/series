@@ -10,8 +10,8 @@ const TVMazeListItem = ({serie, onSerieSelect}) => {
           <img className="media-object img-thumbnail show-thumbnail"
           src={serie.show.image ? serie.show.image.medium : noimage} />
         </div>
-        <div className="media-body no-border">
-          <div className="media-heading">{serie.show.name}</div>
+        <div className="media-body">
+          <div className="media-heading"><p>{serie.show.name}</p></div>
           <p>Rating: {serie.show.rating.average}/10</p>
         </div>
       </div>
