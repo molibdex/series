@@ -72,3 +72,8 @@ header h1 {
 .list-group-item {
   border: 0px;
 }
+.list-group-item {
+    border:0 !important;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}

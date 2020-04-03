@@ -3,7 +3,8 @@ import noimage from '../utils/no_image';
 
 const TVMazeListItem = ({serie, onSerieSelect}) => {
   return (
-    <li className="list-group-item" onClick={() => onSerieSelect(serie)}>
+
+    <li className="list-group-item " onClick={() => onSerieSelect(serie)}>
       <div className="video-list media ">
         <div className="media-left">
           <img className="media-object img-thumbnail show-thumbnail"
@@ -15,6 +16,7 @@ const TVMazeListItem = ({serie, onSerieSelect}) => {
         </div>
       </div>
     </li>
+
   );
 };
 
