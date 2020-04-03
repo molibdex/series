@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+header h1 {
+	font-size: 48px;
+	font-weight: 500;
+  margin-top: 50px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.show-thumbnail {
+  max-width: 64;
+}
+
+.search-bar {
+  display: block;
+	width: 100%;
+	outline: none;
+	background: none;
+	background-color: none;
+	color: #53565A;
+	font-size: 25px;
+	font-weight: 300;
+  margin-bottom: 100px;
+  margin-top: 40px;
+	transition: 0.4s ease-out;
+}
+
+.search-bar input {
+  width: 100%;
+	border-radius: 10px;
+	background-color: none;
+}
+
+.serie-detail {
+
+  padding: 10px;
+
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  cursor: pointer;
+
+}
+
+.genre span {
+  margin-right: 5px;
+  font-size: 90%;
+}
+
+.list-group-item {
+  display: none;
+  border: 10px;
+}
+
+.media-body {
+  border: 0px;
+}
+.list-group-item {
+  border: 0px;
+}
